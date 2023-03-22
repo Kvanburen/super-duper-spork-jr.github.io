@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 177, 177);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 4px rgb(46, 182, 197) solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+    background-size: cover;
+    background-image: url("../assets/Images/FishBackground.jpeg");
+    
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px
+}
+
+p {
+    color: rgb(245, 177, 177)
+}
+
+#intro {
+    color: rgb(121, 235, 34);
+}
+
+li {
+    color: rgb(245, 177, 177)
+}
+
+a {
+    color: rgb(46, 182, 197)
+}
+.bg{
+    background-color:aquamarine
+}
