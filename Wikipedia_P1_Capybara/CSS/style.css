@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: rgb(25, 102, 62);
+    color: rgb(251, 211, 182);
+    margin: 100px;
+}
+
+hr{
+    background-color:rgb(100, 40, 12);
+    height: 2px;
+    border: none;
+    margin-right: 300px;
+}
+
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 800;
+}
+
+#tagline{
+    Font-family: 'Alegreya Sans', sans-serif;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#listtitle {
+    float: right;
+}
+
+.list {
+    float: right;
+    margin-right: 30px;
+}
+
+.sidenav {
+    float: left;
+    margin-top: 130px;
+}
+
+.sidebartitle {
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#maincontent {
+    margin-left: 300px;
+}
+
+.content {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.paragraph{
+    margin-right: 300px;
+}
+
+a {
+    color: rgb(235, 122, 60);
+}
+
+#image3 {
+    float: right;
+    padding: 20px
+}
+
+#image2 {
+    float: left;
+    padding: 20px
+}
