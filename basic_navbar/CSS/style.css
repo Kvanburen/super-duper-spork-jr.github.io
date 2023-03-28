@@ -1,0 +1,29 @@
+ul li {
+    display: inline;
+    text-decoration: none;
+
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: bold;
+}
+li a:hover {
+    text-decoration: underline;
+    letter-spacing: 2px;
+}  
+body, ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+nav {
+    background-color: rgb(244, 200, 124);
+    padding: 10px;
+    text-align: center;
+}
