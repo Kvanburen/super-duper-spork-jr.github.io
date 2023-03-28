@@ -11,12 +11,67 @@ A {
 }
 
 header {
-    }
-
-nav { 
     text-align: center;
+    }
 
+ nav {
+    word-spacing: 15px;
+    text-align: center;
+     }
+
+nav a{
+    word-spacing: 15px;
+    text-align: center;
+    text-decoration: none;
     }
-    h2 {
-        color: coral;
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ #pengsofm {
+    word-spacing: 0px;
     }
+
+#mp {
+    word-spacing: 0px;
+    }
+
+h2 {
+    color: coral;
+    }
+
+aside {
+    background-color: coral;
+    float: right;
+    margin-left: 1950px;
+    margin-right: 175px;
+    font-size: large;
+    }
+    
+section {
+    margin-right: 350px;
+    margin-left: 150px;
+    }
+
+p {
+    margin-left: 100px;
+    }
+
+figure {
+    margin-left: 175px
+}
+
+img {
+    padding: 30px
+}
+
+figcaption {
+    margin-bottom: 50px;
+    }
+
+footer {
+    text-align: right;
+    margin-top: 150px;
+    }
+  
