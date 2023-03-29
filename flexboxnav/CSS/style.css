@@ -1,0 +1,21 @@
+nav {
+    background-color: rgb(69, 113, 113);
+}
+body, ul {
+    margin:0
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px
+}
+
+#home {
+    margin-right: auto;
+    padding-left: 15px;
+}
