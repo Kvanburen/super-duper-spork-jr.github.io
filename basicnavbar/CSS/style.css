@@ -1,3 +1,14 @@
+body, ul {
+    margin: 0px
+}
+
+body {
+    background-color: rgb(244, 233, 233);
+    color: rgb(83, 48, 7);
+    height: 2000px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+   
 ul li {
     display: inline;
     text-decoration: none;
@@ -7,23 +18,27 @@ ul li {
 li a {
     padding: 10px;
     text-decoration: none;
-    color: darkslateblue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 li a:hover {
     text-decoration: underline;
     letter-spacing: 2px;
 }  
-body, ul {
-    margin: 0;
-}
 
 ul {
     padding-left: 0;
 }
 
 nav {
-    background-color: rgb(244, 200, 124);
+    background-color: rgb(231, 122, 12);
     padding: 10px;
     text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#main {
+    margin-left: 50px;
+    margin-right: 50px;
 }
