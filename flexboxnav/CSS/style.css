@@ -1,21 +1,46 @@
-nav {
-    background-color: rgb(69, 113, 113);
-}
 body, ul {
     margin:0
+}
+body {
+    color: #f69a68;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 ul {
     display: flex;
     list-style: none;
     padding-left: 0;
-    height: 50px;
+    height: 5vh;
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    background-color: rgb(69, 113, 113);
 }
 
 #home {
     margin-right: auto;
     padding-left: 15px;
 }
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:1vh;
+        height: 25vh;
+        padding-left: 2vh;
+        margin-right: 75%;
+        
+    }
+
+    #home {
+        margin: 0;
+        padding-left: .1vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+}
+
