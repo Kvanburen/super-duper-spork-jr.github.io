@@ -121,9 +121,14 @@ p {
 
 }
 
-.img {
+.imgs img {
+    width: 15%;
+}
+
+.imgs {
     display: flex;
     justify-content: center;
+    gap: 5vh
 }
 
 h5 {
