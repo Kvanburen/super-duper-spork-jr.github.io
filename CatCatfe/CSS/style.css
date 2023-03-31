@@ -131,6 +131,11 @@ p {
     gap: 5vh
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h5 {
     text-align: center;
     color: black;
@@ -139,12 +144,10 @@ h5 {
 
 #neonsign {
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: center;
 }
 
 #manandcat {
     display: flex;
     justify-content: center;
-    
 }
