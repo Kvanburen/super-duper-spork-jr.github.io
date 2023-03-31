@@ -1,36 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Quando&display=swap');
+
+
 a {
     color: rgb(250, 240, 207);
 }
 
 body {
     background-color: rgb(250, 240, 207);
+    font-family: 'Patua One', cursive;
 }
+
 ul {
     display: flex;
     padding-left: 0;
-    padding-right:3vh;
-    padding-bottom: 1vh;
+    padding-right: 12vh;
+    padding-bottom: 2vh;
     list-style: none;
     background-color: rgb(15, 118, 70);
-    gap: 5%;
-    justify-content: baseline;
+    gap: 3%;
+    justify-content: flex-end;
     align-items: baseline;
-    height: 5vh;
+    height: 6vh;
 
 }
 
-ul, li {
+ul,
+li {
     text-decoration: none;
 }
 
 li a {
     text-decoration: none;
 }
-body, ul {
+
+body,
+ul {
     margin: 0;
 }
 
-.droptrigger:hover .drop{
+.droptrigger:hover .drop {
     opacity: 1
 }
 
@@ -44,7 +52,8 @@ body, ul {
     opacity: 0;
     flex-direction: column;
     margin-left: 2%;
-    padding: 2%;
+    margin-top: .6%;
+    padding: 1%;
     padding-right: 5%;
     gap: 1vh
 }
@@ -53,24 +62,51 @@ li a:hover {
     text-decoration: underline;
 }
 
-#sub{
+#sub {
     color: rgb(15, 118, 70);
 }
 
-#home{
-    margin-right: 45%;
-}
-
-#logo{
-    padding-left: 2vh;
-    margin-top: .5%
+#logo {
+    padding-left: 5vh;
+    margin-top: 1%;
+    margin-right: auto;
 }
 
 .heroimg {
     background-image: url("../assets/images/catcoffee.jpg");
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+.header {
+    color: rgb(194, 67, 3);
+    background-color: rgb(250, 240, 207);
+    border-radius: 2vh;
+    padding: 3vh;
+    position: absolute;
+    top: 25vh;
+    right: 10vh;
+    font-size: 300%;
+
+}
+
+.button {
+    color: rgb(243, 169, 40);
+    background-color: rgb(15, 118, 70);
+    border-radius: 2vh;
+    padding: 3vh;
+    position: absolute;
+    top: 40vh;
+    right: 25vh
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
 }
 
 h2 {
@@ -81,14 +117,29 @@ h2 {
 p {
     text-align: center;
     color: black;
+    font-family: 'Quando', serif;
+
 }
 
-.imgs {
+.img {
     display: flex;
     justify-content: center;
-    padding: 3%;
 }
+
 h5 {
     text-align: center;
     color: black;
+    gap: 0;
+}
+
+#neonsign {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#manandcat {
+    display: flex;
+    justify-content: center;
+    
 }
