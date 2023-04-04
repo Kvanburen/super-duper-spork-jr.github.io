@@ -87,7 +87,7 @@ li a:hover {
     position: absolute;
     top: 25vh;
     right: 10vh;
-    font-size: 300%;
+    font-size: 250%;
 
 }
 
@@ -98,7 +98,8 @@ li a:hover {
     padding: 3vh;
     position: absolute;
     top: 40vh;
-    right: 25vh
+    right: 20vh;
+    font-size: 150%
 }
 
 .button a {
@@ -153,6 +154,16 @@ h5 {
 #manandcat {
     display: flex;
     justify-content: center;
+}
+
+.socialicons {
+    display: flex;
+    padding: 3vh;
+    gap: 1vh;
+}
+
+.socialicons:hover {
+    gap: 2vh
 }
 
 /* Media Query */
