@@ -1,0 +1,25 @@
+tr:nth-of-type(1) {
+background-color:darkseagreen;
+color:rgb(16, 60, 60);
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td, th {
+    padding: 1vh;
+}
+
+tr:nth-of-type(3){
+    background-color: rgb(235, 255, 244);
+    color: rgb(50, 175, 50);
+    font-weight: 600;
+    border-bottom: rgb(16, 60, 60) 1px solid;
+    border-top: rgb(16, 60, 60) 1px solid;
+}
+
+tr:last-of-type {
+    border-bottom: darkseagreen 2px solid;
+}
