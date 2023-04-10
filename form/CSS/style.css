@@ -48,7 +48,6 @@ main {
 
 #password2 {
     margin-bottom: 1vh;
-    margin-right: 2vh;
 }
 
 #day {
@@ -62,6 +61,14 @@ main {
 
 #contbutton {
     margin: 1vh;
+}
+
+input:valid {
+    border 3px freen solid;
+}
+
+input:invalid {
+    border: 3px red solid;
 }
 @media screen and (max-width: 1200px) {
     main {

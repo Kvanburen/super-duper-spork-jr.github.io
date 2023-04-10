@@ -19,22 +19,21 @@
             </div>
             <div class="form">
                 <form action="POST">
-                    <h1>Create an account</h1>
-                <input type="text" name="fn" id="fn" placeholder="First Name">
-                <input type="text" name="ln" id="ln" placeholder="Last Name">
+                    <h2>Create an account</h2>
+                    <p>It's quick and easy!</p>
+                <input type="text" name="fn" id="fn" placeholder="First Name" required minlength="1" maxlength="24">
+                <input type="text" name="ln" id="ln" placeholder="Last Name" required minlength="1" maxlength="24">
                 <br>
-                <input type="text" name="pn" id="pn" placeholder="Phone Number">
-                <input type="text" name="email" id="email" placeholder="E-mail Address">
+                <input type="text" name="pn" id="pn" placeholder="Phone Number" required>
+                <input type="text" name="email" id="email" placeholder="E-mail Address" required>
                 <br>
-                <label for="password">Create a new password</label>
-                <input type="password" id="password" placeholder="password">
-                <br>
-                <label for="password2">Confirm password</label>
-                <input type="password2" id="password2" placeholder="re enter password">
+                <input type="password" id="password" placeholder="New password" required minlength="1" maxlength="30">
+              
+                <input type="password2" id="password2" placeholder="re-enter password" required minlength="1" maxlength="30">
                 <br>
                 <label for="bday">Birthday</label>
                 <br>
-                <select name="bday" id="month">
+                <select name="bday" id="month" required>
                     <option value="january">January</option>
                     <option value="febuary">Febuary</option>
                     <option value="march">March</option>
@@ -48,7 +47,7 @@
                     <option value="november">November</option>
                     <option value="december">December</option>
                 </select>
-                <select name="bday" id="day">
+                <select name="bday" id="day" required>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -81,7 +80,7 @@
                     <option value="30">30</option>
                     <option value="31">31</option>    
                 </select>
-                    <select name="bday" id="year">
+                    <select name="bday" id="year" required>
                         <option value="1990">1990</option>
                         <option value="1991">1991</option>
                         <option value="1992">1992</option>
