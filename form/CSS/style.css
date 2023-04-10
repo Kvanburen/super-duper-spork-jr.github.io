@@ -64,12 +64,13 @@ main {
 }
 
 input:valid {
-    border 3px freen solid;
+    border: 3px freen solid;
 }
 
 input:invalid {
     border: 3px red solid;
 }
+
 @media screen and (max-width: 1200px) {
     main {
         grid-template-columns: 20% 60% 20%;
