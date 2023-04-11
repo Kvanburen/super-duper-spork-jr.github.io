@@ -1,34 +1,60 @@
-
+body {
+    background-color: darkolivegreen;
+    color: beige;
+    font-family: fantasy;
+}
 .form {
-    background-color: white;
+    background-color: beige;
     border-radius: 15px;
     padding:20px;
-    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+    box-shadow: 0px 0px 40px 00px rgba(11, 11, 11, 0.3);
     color: #444;
+    margin-left: 62vh;
+    margin-right: 62vh;
     text-align: center;
 }  
+
+h1 {
+    text-align: center;
+}
 
 input, select, textarea {
     padding: .5vh;
 }
 
-input {
-    padding-right: 18vh;
+input, textarea, select {
+    width: 40vh;
+    text-align: center;
 }
 
 label {
     padding-right: 1vh;
- }
-
- .umun{
-    display: flex;
-    justify-content: center;
+    font-weight: 400;
  }
 
  input:valid {
-    border: 3px freen solid;
+    border: 3px darkolivegreen solid;
 }
 
 input:invalid {
-    border: 3px red solid;
+    border: 3px rgb(176, 19, 19) solid;
+}
+
+button {
+    width: 15vh;
+    background-color: darkolivegreen;
+    color: beige;
+    border: none;
+    border-radius: 1vh;
+    box-shadow: 0px 0px 10px 00px rgba(11, 11, 11, 0.3);
+}
+
+#human {
+    width: 1vh;
+}
+
+img {
+    width: 3vh;
+    background-color: none;
+    padding-left: 1vh;
 }
