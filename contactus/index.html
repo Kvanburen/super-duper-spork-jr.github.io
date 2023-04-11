@@ -15,29 +15,43 @@
             <h2>Contact Us!</h2>
         </div>
         <div class="form">
-            <div class="halp"></div>
+            <div class="halp">
             <label for="help">What can we help you with?</label>
-            <select name="help" id="help">
-                <option value="select">Select an option</option>
+            <select name="help" id="help" required>
+                <option value="select">Pick a thing</option>
+                <option value="select">A shoulder to cry on</option>
+                <option value="select">Fight the patriarchy!</option>
+                <option value="select">Becoming a fantasy prince</option>
+                <option value="select">Becoming a fantasy queen</option>
+                <option value="select">Becoming a fantasy thing (we're inclusive)</option>
+                <option value="select">Becoming a fantasy dragon... RAWR</option>
+                <option value="select">Just help... please... just help me... now... thanks</option>
             </select>
         </div>
         <br>
         <div class="nam">
             <label for="name">Name</label>
+            <br>
             <input type="name" name="name" id="name" placeholder="ex. Nico Robin" minlength="1" maxlength="30" required>
         </div>
         <br>
         <div class="ail">
             <label for="email">E-mail</label>
-            <input text="email" name="email" id="email" placeholder="ex. strawhats@thesunny.com" minlength="1" maxlength="50" required>
+            <br>
+            <input text="email" name="email" id="email" placeholder="ex. strawhats@thesunny.com" minlength="1"
+                maxlength="50" required>
         </div><br>
         <div class="bur">
             <label for="number">Phone Number</label>
-            <input text="number" name="number" id="number" placeholder="(000)-000-0000" minlength="10" maxlength="10" required>
+            <br>
+            <input text="number" name="number" id="number" placeholder="(000)-000-0000" minlength="10" maxlength="10"
+                required>
         </div><br>
         <div class="sage">
-            <label for="mess">Message</label>
-            <textarea text="mess" name="mess" id="mess" placeholder="Write any and all greivences here" minlength="1" maxlength="1000" required></textarea>
+            <label for="mess" id="messlabel">Message</label>
+            <br>
+            <textarea text="mess" name="mess" id="mess" placeholder="Write any and all greivences here" minlength="1"
+                maxlength="1000" required></textarea>
         </div>
         <br>
         <div class="umun">
@@ -46,6 +60,7 @@
         </div>
         <br>
         <input type="submit" name="submit" id="submit" value="Send Forth!">
+        </div>
     </form>
 </body>
 
