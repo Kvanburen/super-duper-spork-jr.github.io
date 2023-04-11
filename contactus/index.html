@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="CSS/style.css">
-        <title>Contact Us</title>
-    </head>
-    <body>
-        <form action="">
-            <h1>Contact Us!</h1>
-        </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <form action="https://getform.io/f/ef013810-4414-49e9-9151-27b6b59a7bf0" method="post">
+        <div class="title">
+            <h2>Contact Us!</h2>
+        </div>
+        <div class="form">
+            <div class="halp"></div>
+            <label for="help">What can we help you with?</label>
+            <select name="help" id="help">
+                <option value="select">Select an option</option>
+            </select>
+        </div>
+        <br>
+        <div class="nam">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" placeholder="ex. Nico Robin" minlength="1" maxlength="30" required>
+        </div>
+        <br>
+        <div class="ail">
+            <label for="email">E-mail</label>
+            <input text="email" name="email" id="email" placeholder="ex. strawhats@thesunny.com" minlength="1" maxlength="50" required>
+        </div><br>
+        <div class="bur">
+            <label for="number">Phone Number</label>
+            <input text="number" name="number" id="number" placeholder="(000)-000-0000" minlength="10" maxlength="10" required>
+        </div><br>
+        <div class="sage">
+            <label for="mess">Message</label>
+            <textarea text="mess" name="mess" id="mess" placeholder="Write any and all greivences here" minlength="1" maxlength="1000" required></textarea>
+        </div>
+        <br>
+        <div class="umun">
+            <input type="checkbox" name="human" id="human" required>
+            <label for="human">Confirm your humanity</label>
+        </div>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Send Forth!">
+    </form>
+</body>
+
 </html>
