@@ -1,25 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=MedievalSharp&family=New+Rocker&display=swap');
+
 body {
     background-color: darkolivegreen;
-    color: beige;
-    font-family: fantasy;
+    color: rgb(46, 15, 4);
+    font-family: 'MedievalSharp', cursive;
 }
+
 .form {
-    background-color: beige;
-    border-radius: 15px;
+    margin-top: 6vh;
+    background-image: url(../assets/scroll.png);
+    background-color: rgba(43, 55, 20, 0.598);
+    background-position: center;
+    background-size: 101vh;
+    border-radius: 50px;
     padding:20px;
-    box-shadow: 0px 0px 40px 00px rgba(11, 11, 11, 0.3);
+    box-shadow: 10px 10px 30px 40px rgba(0, 0, 0, 0.3);
     color: #444;
     margin-left: 62vh;
     margin-right: 62vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 63.5vh;
 }  
 
 h1 {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    
+}
+
+h3 {
     text-align: center;
 }
 
 input, select, textarea {
     padding: .5vh;
+    border-radius: 8px;
 }
 
 input, textarea, select {
@@ -41,12 +60,24 @@ input:invalid {
 }
 
 button {
-    width: 15vh;
+    width: 19vh;
     background-color: darkolivegreen;
     color: beige;
     border: none;
     border-radius: 1vh;
+    padding: .5vh;
+    padding-top: 1vh;
     box-shadow: 0px 0px 10px 00px rgba(11, 11, 11, 0.3);
+    font-size:medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+}
+
+button:hover {
+    text-decoration: underline;
+    font-size: large;
 }
 
 #human {
