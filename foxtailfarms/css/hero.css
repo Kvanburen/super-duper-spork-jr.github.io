@@ -9,16 +9,17 @@
 }
 
 .hero-text {
-    color: aliceblue;
-    font-family: "Bebas Neue";
+    color: #fff;
     font-style: italic;
     text-align: center;
 }
 
 .hero-text h1 {
     font-size: 5em;
+    font-family: 'Lobster', cursive;
 }
 
 .hero-text h3 {
     font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
 }
