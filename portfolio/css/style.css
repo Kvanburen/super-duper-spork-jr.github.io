@@ -154,14 +154,13 @@ main {
 }
 .content-content {
   padding:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-content img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 40vh;
-  padding-bottom: 3vh;
 }
 
 
@@ -184,13 +183,10 @@ footer h4, footer h5, footer h6 {
 
 }
 .footer-left {
-  flex: 1;
+  flex: 5;
   margin-bottom:50px;
 }
-.footer-right {
-  flex:3;
-  margin-left:25px;
-}
+
 footer h4 {
   font-size: 2em;
 }
