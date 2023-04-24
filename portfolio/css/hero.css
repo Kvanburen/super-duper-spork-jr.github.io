@@ -1,0 +1,25 @@
+.site-hero {
+    height: 80vh;
+    background-image: url("../assets/branding/intropic.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: rgb(223, 248, 244);
+    font-family: "Bebas Neue";
+    font-style: italic;
+    text-align: center;
+    text-shadow: rgb(40, 40, 40) 1px 0 10px;
+}
+
+.hero-text h1 {
+    font-size: 5em;
+}
+
+.hero-text h3 {
+    font-size: 3em;
+}
