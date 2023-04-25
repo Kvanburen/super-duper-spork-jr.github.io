@@ -21,13 +21,13 @@ GridBlock Styles Section (background tile URL's go here)
   background-image: url('../images/grass.png');
 }
 .gridBlock.rock {
-  background-image: url('../images/rock.png');
+  background-image: url('../images/rockv2.png');
 }
 .gridBlock.gravel {
   background-image: url('../images/gravel.png');
 }
 .gridBlock.hole {
-  background-image: url('../images/hole_v3.png');
+  background-image: url('../images/holev2.png');
 }
 
 /*******************************************************************************
