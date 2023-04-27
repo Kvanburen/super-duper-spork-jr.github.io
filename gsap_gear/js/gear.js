@@ -36,4 +36,7 @@
             yoyo: true,
             delay: 3,
             repeat: -1,
+            ease: "elastic",
+            repeatDelay: 2,
+            duration: 1,
         });
