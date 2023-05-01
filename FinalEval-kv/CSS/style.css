@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(../assets/avenir_ff/AvenirLTStd-Black.otf);
+    src: url(../assets/avenir_ff/AvenirLTStd-Book.otf);
+    src: url(../assets/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+body,nav,footer {
+    background-color:  #040714;
+    font-family: Avenir;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-image: url("../assets/disney+bg.jpeg");
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#opening {
+    display:flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20vh
+}
+
+#opening img {
+    height: 8vh;
+}
+
+#hulu-disney {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4vh;
+}
+
+#hulu-disney-espn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4vh;
+}
+
+#info {
+    color: rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info1 {
+    font-size: smaller;
+}
+
+#info1 a {
+    color: rgb(190, 190, 190);
+}
+
+header {
+    height: 70vh;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav button {
+    border: 1px solid white;
+    color: white;
+    background: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    position: sticky;
+    top: 0;
+}
+
+.logo-main {
+    padding-bottom: 3vh;
+}
+
+#getthree {
+    border: none;
+    background-color: #0063e5;
+    color: white;
+    border-radius: 2px;
+    padding: 1.5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+
+#getboth {
+    border: none;
+    background-color: #0063e5;
+    color: white;
+    border-radius: 2px;
+    padding: 1.5vh;
+    
+}
+
+#email {
+    border: none;
+    background-color: white;
+    border-radius: 2px;
+    padding: 1.5vh;
+    padding-right: 4vh;
+}
+
+#opening p {
+    color: rgb(190, 190, 190);
+}
+
+#opening b {
+    color: white;
+}
+
+#main-banner {
+    display: flex;
+    flex-direction: row;
+}
+
+#main-banner h3 {
+    margin: 2vh;
+}
+
+#main-banner a {
+    text-decoration: none;
+}
+
+#trend {
+    border-bottom: 5px solid white;
+}
+
+main {
+    background-color: #040714;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+main h5 {
+    margin: 0;
+    color: #1ce783;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2em;
+}
+
+#gallery img {
+    height: 36vh;
+}
+
+footer {
+    background-color: #040714;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+footer img {
+    width: 75px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+footer a {
+    color: rgb(190, 190, 190);
+    font-size: small;
+    text-decoration: none;
+    margin: 1vh;
+}
+
+footer p {
+    font-size: small;
+    color: rgb(190, 190, 190);
+}
+
+#line2 {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}
