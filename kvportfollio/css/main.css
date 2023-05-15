@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    background-color: whitesmoke;
 }
 img {
     object-fit: cover;
@@ -12,7 +13,7 @@ img {
 /* HEADER */
 header {
     width: 100vw;
-    background-color: black;
+    background-color: darkseagreen;
 }
 
 /* NAVIGATION */
@@ -22,13 +23,21 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    background-color: darkseagreen;
 }
+
 #logo {
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
+a {
+    background-color: darkseagreen;
+}
+
 ul {
     display: flex;
+    background-color: darkseagreen;
 }
 ul li {
     margin-right: 25px;
@@ -37,11 +46,11 @@ ul li:last-of-type {
     margin-right: 0;
 }
 ul li a, ul li a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 ul li a:hover {
-    color: red;
+    color: whitesmoke;
 }
 
 /* MAIN */
@@ -67,6 +76,9 @@ main {
 }
 
 /* GALLERY */
+.gallery h3 {
+    padding: 2vh
+}
 .gallery h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -90,12 +102,12 @@ main {
 .gallery .linkbtn, .gallery .linkbtn:visited {
     display: inline-block;
     width: 100%;
-    background-color: black;
+    background-color: darkseagreen;
     color: white;
     padding: 10px 0;
     text-align: center;
     text-decoration: none;
-    border: 3px solid black;
+    border-radius: 1vh;
     transition: .5s;
 }
 .gallery .linkbtn:hover {
@@ -108,7 +120,7 @@ footer {
     width: 100vw;
     text-align: center;
     background-color: black;
-    color: white;
+    color: black;
     padding: 10px 0;
     margin-top: 50px;
     text-transform: uppercase;
@@ -150,6 +162,53 @@ footer {
     padding: .8vh;
     border-radius: 1vh;
 
+}
+
+/*posts*/
+#tazoimg {
+    display: flex;
+    justify-content: center;
+}
+#tazo img {
+    margin: 2vh;
+    width: calc(25% - 25px);
+    padding-bottom: 3vh;
+}
+#tazotext p {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 80vh;
+}
+#tazotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vh;
+    font-size: large;
+}
+
+#fantasyimg {
+    display: flex;
+    justify-content: center;
+}
+#fantasy img {
+    margin: 2vh;
+    width: 60%;
+    padding-bottom: 3vh;
+}
+#fantasytext p {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 80vh;
+}
+#fantasytext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vh;
+    font-size: large;
 }
 
 /* MEDIA QUERIES AND RESPONSIVENESS */
