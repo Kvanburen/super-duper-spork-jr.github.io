@@ -408,6 +408,7 @@ div.hero-content {
     width: 40rem;
     height: 40rem;
     object-fit: cover;
+    object-position: top;
     border: 10px solid #0a6a62;
 }
 
