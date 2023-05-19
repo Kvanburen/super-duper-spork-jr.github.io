@@ -14,10 +14,13 @@ img {
     object-fit: cover;
 }
 
+h1, h3 {
+    background-color: transparent;
+}
+
 h1,
 .linkbtn {
     font-family: 'kanit';
-    background-color: none;
 }
 
 h2,
@@ -153,9 +156,9 @@ main {
 .gallery .linkbtn, .gallery .linkbtn:visited {
     display: inline-block;
     width: 100%;
-    background-color: darkseagreen;
-    color: white;
-    padding: 10px 0;
+    background-color: #0a6a62;
+    color: black;
+    padding: 0.5rem;
     text-align: center;
     text-decoration: none;
     border-radius: 1vh;
@@ -163,7 +166,10 @@ main {
 }
 .gallery .linkbtn:hover {
     background-color: transparent;
-    color: black;
+    border: #0a6a62 solid 4px;
+    color: #0a6a62;
+    font-size: large;
+
 }
 
 /* FOOTER */
@@ -194,7 +200,7 @@ footer {
 }
 
 #abouttext h1 {
-    border-bottom: .5vh solid darkseagreen;
+    border-bottom: .5vh solid #0a6a62;
     border-radius: .5vh;
     width: 300%;
     
@@ -207,7 +213,7 @@ footer {
 }
 
 #about button{
-    background-color: darkseagreen;
+    background-color: #0a6a62;
     border: solid;
     color: white;
     padding: .8vh;
