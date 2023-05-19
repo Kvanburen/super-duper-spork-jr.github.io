@@ -1,36 +1,40 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Katie VanBuren's Portfolio</title>
-        <link href="css/main.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="img/logo.png">
-    </head>
-    <body>
-        <!-- HEADER / MAIN NAVIGATION -->
-        <header> 
-            <nav>
-                <a href="index.html" id="logo">Portfolio</a>
-                <ul>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <!-- MAIN CONTENT -->
-        <main>
-            <!-- HERO -->
-            <section>
-                <div class="site-hero">
-                  <div class="hero-text">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katie VanBuren's Portfolio</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body>
+    <!-- HEADER / MAIN NAVIGATION -->
+    <header>
+        <nav>
+            <!-- <a href="" id="logo">Portfolio</a> -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#underhero">Gallery</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO -->
+        <section>
+            <div class="site-hero">
+                <div class="hero-text">
                     <h1>Katie Vanburen</h1>
                     <h3>Graphic design and web development portfolio</h3>
-                  </div>
                 </div>
-              </section>
-
+            </div>
+        </section>
+        <section id="underhero">
             <!-- PROJECT GALLERY -->
             <section class="gallery">
                 <h2>Project Gallery<span>.</span></h2>
@@ -46,7 +50,7 @@
                         <a href="fantasy.html" class="linkbtn">View</a>
                     </div>
                     <div class="project-set">
-                        <img src="images/ColorAtsumeruLogo.png" alt="Atsumeru Logo">
+                        <img src="images/ColorAtsumeruLogo.png" alt="Atsumeru Logo" id="atsumeru">
                         <h3>Atsumeru Logo</h3>
                         <a href="atsumeru.html" class="linkbtn">View</a>
                     </div>
@@ -67,11 +71,13 @@
                     </div>
                 </div>
             </section>
-        </main>
+        </section>
+    </main>
 
-        <!-- FOOTER -->
-        <footer>
-            <p>&copy; 2023 portfolio</p>
-        </footer>
-    </body>
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2023 portfolio</p>
+    </footer>
+</body>
+
 </html>

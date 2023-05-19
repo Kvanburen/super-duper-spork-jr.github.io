@@ -6,17 +6,16 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    background-color: rgb(1, 15, 16);
     color:white;
     font-family: 'molengo';
+}
+body{
+    background-color: rgb(1, 15, 16);
 }
 img {
     object-fit: cover;
 }
 
-h1, h3 {
-    background-color: transparent;
-}
 
 h1,
 .linkbtn {
@@ -98,13 +97,15 @@ nav ul li a:hover,
 
 /* MAIN */
 main {
-    width: 90vw;
     margin: 0 auto;
 }
-
+#underhero {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
 /* HERO */
 .site-hero {
-    height: 80vh;
+    height: 100vh;
     background-image: url("../images/intropic.jpg");
     background-position: center;
     background-size: cover;
@@ -115,7 +116,6 @@ main {
 
 .hero-text {
     color: rgb(223, 248, 244);
-    font-family: "Bebas Neue";
     font-style: italic;
     text-align: center;
     text-shadow: rgb(40, 40, 40) 1px 0 10px;
@@ -126,16 +126,21 @@ main {
 }
 
 .hero-text h3 {
-    font-size: 3em;
+    font-size: 2em;
+    letter-spacing: 0.1em;
 }
 
 /* GALLERY */
-.gallery h3 {
-    padding: 2vh
-}
 .gallery h2 {
     text-align: center;
+    margin-bottom: 135px;
+    margin-top: 75px;
+    font-size:xx-large;
+}
+.gallery h3 {
+    text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px; 
 }
 .gallery .projects {
     display: flex;
@@ -144,34 +149,38 @@ main {
     gap: 25px;
 }
 .gallery .projects .project-set {
-    width: calc(50% - 25px);
+    width: calc(30% - 25px);
 }
 
 .gallery .projects .project-set img {
     width: 100%;
 }
-.gallery .projects .project-set p {
-    margin: 10px 0;
-}
+
 .gallery .linkbtn, .gallery .linkbtn:visited {
     display: inline-block;
     width: 100%;
     background-color: #0a6a62;
     color: black;
-    padding: 0.5rem;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     border-radius: 1vh;
     transition: .5s;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: #0a6a62 solid 3px;
 }
 .gallery .linkbtn:hover {
     background-color: transparent;
-    border: #0a6a62 solid 4px;
     color: #0a6a62;
     font-size: large;
 
 }
+#atsumeru {
+    background-color: white;
+    padding: 1em;
 
+}
 /* FOOTER */
 footer {
     width: 100vw;
