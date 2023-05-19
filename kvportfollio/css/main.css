@@ -17,6 +17,7 @@ img {
 h1,
 .linkbtn {
     font-family: 'kanit';
+    background-color: none;
 }
 
 h2,
@@ -99,19 +100,30 @@ main {
 }
 
 /* HERO */
-.hero {
+.site-hero {
+    height: 80vh;
+    background-image: url("../images/intropic.jpg");
+    background-position: center;
+    background-size: cover;
     display: flex;
-    margin: 50px 0;
-    height: 400px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.hero .herotxt {
-    padding-right: 50px;
+
+.hero-text {
+    color: rgb(223, 248, 244);
+    font-family: "Bebas Neue";
+    font-style: italic;
+    text-align: center;
+    text-shadow: rgb(40, 40, 40) 1px 0 10px;
 }
-.hero img {
-    height: 100%;
-    width: 100%;
+
+.hero-text h1 {
+    font-size: 5em;
+}
+
+.hero-text h3 {
+    font-size: 3em;
 }
 
 /* GALLERY */
