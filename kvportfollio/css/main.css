@@ -116,7 +116,6 @@ main {
 
 .hero-text {
     color: rgb(223, 248, 244);
-    font-style: italic;
     text-align: center;
     text-shadow: rgb(40, 40, 40) 1px 0 10px;
 }
@@ -154,6 +153,8 @@ main {
 
 .gallery .projects .project-set img {
     width: 100%;
+    height: 70%;
+    object-fit: contain;
 }
 
 .gallery .linkbtn, .gallery .linkbtn:visited {
